@@ -1,0 +1,36 @@
+body{
+    color: blue;
+}
+
+/* @media (max-width: 600px){
+    .cellphone{
+        color: red;
+    }
+}
+@media (min-width:600px) and (max-width:992px){
+    .tablet{
+        color: green;
+    }
+}
+@media (min-width:992px){
+    .desktop{
+        color: red;
+    }
+} */
+
+@media (orientation: landscape){
+    body{
+        display:flex;
+    }
+    h2{
+        color: green;
+    }
+}
+@media (orientation: portrait){
+    body{
+        display: block;
+    }
+    h2{
+        color: yellow;
+    }
+}
