@@ -132,3 +132,33 @@ ul {
         width: 100%;
     }
 }
+
+@media (max-width: 720px){
+    .menus{
+        display: block;
+        text-align: center;
+    }
+    .menus li{
+        margin-right:0;
+    }
+    .company-info{
+        display:block;
+        text-align: center;
+    }
+    .company-info li{
+        margin-right:0;
+    }
+    .second-line-left div{
+        text-align: center;
+    }
+
+    .slogan{
+        display:block;
+    }
+
+    .company-contact,
+    .vision{
+        display:none;
+    }
+    
+}
